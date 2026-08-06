@@ -1,0 +1,18 @@
+# Direct runtime dependencies used by the AURORA programs.
+# The pinned scientific stack requires Python 3.12 or newer.
+
+# Numerical processing
+numpy==2.5.1
+scipy==1.18.0
+
+# FITS catalogue I/O and Gaia Archive access
+astropy==8.0.1
+astroquery==0.4.11
+
+# Shared terminal progress and memory-pressure handling
+tqdm==4.69.0
+psutil==7.2.2
+
+# Raster image processing
+opencv-python-headless==5.0.0.93
+Pillow==12.3.0

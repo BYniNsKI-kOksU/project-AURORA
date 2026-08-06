@@ -1,0 +1,107 @@
+Python: bytecode and caches
+
+pycache/
+**/pycache/
+*.py[cod]
+*$py.class
+
+Virtual environments and build artifacts
+
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+macOS and IDE/editor files
+
+.DS_Store
+**/.DS_Store
+.history/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+Local configuration, secrets and logs
+
+.env
+.env.*
+!.env.example
+*.log
+
+Generated caches
+
+maps/cache/
+cache/
+caches/
+**/cache/
+**/caches/
+*.npy
+*.npz
+
+Generated astronomy data
+
+*.fits
+*.fit
+*.fts
+*.fits.gz
+
+Render outputs
+
+frames/
+frames_*/
+results/
+wyniki/
+output/
+outputs/
+render_output/
+multiband_output/
+Records/
+records/
+frames_micro_overlay/
+frames_variable_overlay/
+frames_variable_overlay_v2/
+
+Large rendered media
+
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.exr
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+
+FFmpeg temporary files
+
+*.h264
+*.h265
+*.hevc
+*.yuv
+*.raw
+
+Archives
+
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+Keep empty folders
+
+!.gitkeep

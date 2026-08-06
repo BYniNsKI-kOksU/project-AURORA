@@ -1,0 +1,82 @@
+{
+  "output": {
+    "directory": "../maps/multiband",
+    "resolution_k": 16,
+    "tile_rows": 64,
+    "png_compression": 6,
+    "percentiles": [1.0, 99.7],
+    "stretch": "asinh",
+    "stretch_strength": 8.0,
+    "palette": "inferno",
+    "collage_tile_width": 1600,
+    "collage_gap": 12,
+    "collage_title_height": 72
+  },
+  "maps": [
+    {
+      "id": "radio_408_mhz",
+      "name": "Radio",
+      "wavelength": "408 MHz",
+      "path": "multiband/haslam_408mhz.fits",
+      "format": "auto",
+      "coordinates": "galactic",
+      "field": "TEMPERATURE",
+      "palette": "magma",
+      "stretch": "asinh",
+      "percentiles": [0.5, 99.8]
+    },
+    {
+      "id": "microwave_857_ghz",
+      "name": "Mikrofale",
+      "wavelength": "857 GHz",
+      "path": "multiband/planck_857ghz.fits",
+      "format": "auto",
+      "field": "I_STOKES",
+      "palette": "inferno",
+      "stretch": "log",
+      "percentiles": [1.0, 99.7]
+    },
+    {
+      "id": "infrared_100_um",
+      "name": "Podczerwień",
+      "wavelength": "100 µm",
+      "path": "multiband/infrared_100um.fits",
+      "format": "auto",
+      "palette": "hot",
+      "stretch": "asinh",
+      "percentiles": [1.0, 99.8]
+    },
+    {
+      "id": "xray_soft_c",
+      "name": "Promieniowanie X",
+      "wavelength": "1/4 keV",
+      "path": "multiband/xray_soft_c.fits",
+      "format": "auto",
+      "palette": "viridis",
+      "stretch": "sqrt",
+      "percentiles": [0.5, 99.5]
+    },
+    {
+      "id": "cmb_smica",
+      "name": "Cosmic Microwave Background",
+      "wavelength": "Planck SMICA CMB",
+      "path": "multiband/cmb.fits",
+      "format": "healpix",
+      "field": "I_STOKES",
+      "palette": "cmb",
+      "stretch": "linear",
+      "symmetric_zero": true,
+      "percentiles": [0.5, 99.5]
+    },    
+    {
+      "id": "gamma_fermi",
+      "name": "Promieniowanie gamma",
+      "wavelength": "0.1–100 GeV",
+      "path": "multiband/gamma_fermi.fits",
+      "format": "auto",
+      "palette": "plasma",
+      "stretch": "log",
+      "percentiles": [1.0, 99.9]
+    }
+  ]
+}
