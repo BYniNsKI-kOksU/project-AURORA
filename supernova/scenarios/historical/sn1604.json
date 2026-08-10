@@ -1,0 +1,7 @@
+{
+  "key":"sn1604","description":"Type Ia-family reconstruction of Kepler's supernova.","status":"historical_observation","category":"historical","disclaimer":"Distance, extinction and subtype estimates vary; the scenario uses broad representative values.",
+  "progenitor":{"name":"SN 1604 progenitor","initial_mass_solar":5.0,"final_mass_solar":1.38,"metallicity":0.014,"radius_solar":0.008,"star_type":"carbon-oxygen white dwarf approximation","age_years":1000000000.0,"composition":{"C":0.49,"O":0.49,"metals":0.02},"total_mass_lost_solar":3.62,"mass_loss_rate_solar_per_year":0.0,"distance":{"value":5.1,"unit":"kpc"},"supernova_type":"Ia","extinction_av_mag":2.8,"galactic_longitude_deg":4.50,"galactic_latitude_deg":6.80},
+  "model_overrides":{"energy_foe":1.3,"nickel_mass_solar":0.65,"diffusion_time_days":14.0},"uncertainty":{},
+  "historical_metadata":{"name":"SN 1604 (Kepler)","observation_year":1604,"approximate_location":"Ophiuchus, Milky Way","observed_peak_visual_magnitude_range":[-3.2,-2.2],"distance_range_kpc":[4.0,6.4],"historical_source_or_remnant":"Kepler supernova remnant (3C 358)","uncertainty_level":"moderate to high","observers_and_civilizations":"Johannes Kepler and other European, Chinese and Korean observers"},
+  "source_notes":["Green & Stephenson 2003 review the historical records; modern distance/extinction estimates remain dispersed."]
+}

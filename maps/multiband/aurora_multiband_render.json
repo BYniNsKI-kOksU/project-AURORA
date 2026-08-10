@@ -1,0 +1,22 @@
+{
+  "projection": "hammer",
+  "maps": [
+    {
+      "id": "cmb_smica",
+      "name": "Cosmic Microwave Background",
+      "wavelength": "Planck SMICA CMB",
+      "input": "/Users/koksu/Desktop/aurora/data/assets/multiband/cmb.fits",
+      "format": "healpix",
+      "output": "/Users/koksu/Desktop/aurora/data/maps/multiband/cmb_smica_hammer.png",
+      "width": 32768,
+      "height": 16384,
+      "constellation_lines": false,
+      "lower": -0.00028422179777408017,
+      "upper": 0.0002809923890163185,
+      "lower_percentile": 0.5,
+      "upper_percentile": 99.5,
+      "stretch": "linear"
+    }
+  ],
+  "collage": null
+}

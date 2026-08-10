@@ -1,0 +1,9 @@
+{
+  "key":"antares","description":"Hypothetical Type II-P range for the red supergiant Antares.","status":"hypothetical","category":"hypothetical","disclaimer":"This scenario does not predict when Antares will explode. Present stellar parameters and the eventual explosion properties remain uncertain.",
+  "progenitor":{"name":"Antares (Alpha Scorpii A)","initial_mass_solar":15.0,"final_mass_solar":13.0,"metallicity":0.014,"radius_solar":680.0,"star_type":"red supergiant M1.5 Iab-Ib","age_years":12000000.0,"composition":{"H":0.61,"He":0.37,"metals":0.02},"total_mass_lost_solar":2.0,"mass_loss_rate_solar_per_year":0.0000015,"distance":{"value":170.0,"unit":"pc"},"supernova_type":"II-P","extinction_av_mag":0.6,"galactic_longitude_deg":351.95,"galactic_latitude_deg":15.07},
+  "model_overrides":{"energy_foe":0.9,"nickel_mass_solar":0.05},
+  "uncertainty":{"progenitor.initial_mass_solar":{"distribution":"uniform","min":12.0,"max":18.0},"progenitor.final_mass_solar":{"distribution":"uniform","min":10.0,"max":15.0},"progenitor.radius_solar":{"distribution":"uniform","min":550.0,"max":850.0},"progenitor.distance.value":{"distribution":"uniform","min":150.0,"max":190.0},"model_overrides.energy_foe":{"distribution":"uniform","min":0.5,"max":1.6},"model_overrides.nickel_mass_solar":{"distribution":"uniform","min":0.02,"max":0.09}},
+  "hypothetical_ranges":{"distance_pc":[150,190],"peak_visual_magnitude":[-12.5,-8.5]},
+  "variants":{"pessimistic":{"energy_foe":0.5,"nickel_mass_solar":0.02},"nominal":{"energy_foe":0.9,"nickel_mass_solar":0.05},"optimistic":{"energy_foe":1.6,"nickel_mass_solar":0.09}},
+  "source_notes":["Ranges are educational priors and not an explosion forecast."]
+}

@@ -1,0 +1,43 @@
+{
+  "key": "eta_carinae",
+  "description": "Hypothetical interaction-powered Type IIn-like explosion range for Eta Carinae A.",
+  "status": "hypothetical",
+  "category": "hypothetical",
+  "disclaimer": "The scenario does not predict an explosion date or a unique outcome. Eta Carinae is a complex binary/LBV system; Type, energy, CSM geometry and final mass are deeply uncertain.",
+  "progenitor": {
+    "name": "Eta Carinae A",
+    "initial_mass_solar": 150.0,
+    "final_mass_solar": 90.0,
+    "metallicity": 0.014,
+    "radius_solar": 120.0,
+    "star_type": "luminous blue variable in an interacting binary",
+    "age_years": 3000000.0,
+    "composition": {"H": 0.35, "He": 0.63, "metals": 0.02},
+    "total_mass_lost_solar": 60.0,
+    "mass_loss_rate_solar_per_year": 0.00085,
+    "distance": {"value": 2.3, "unit": "kpc"},
+    "supernova_type": "IIn",
+    "extinction_av_mag": 5.0,
+    "galactic_longitude_deg": 287.60,
+    "galactic_latitude_deg": -0.63
+  },
+  "model_overrides": {"energy_foe": 2.0, "nickel_mass_solar": 0.10, "csm_efficiency": 0.3},
+  "uncertainty": {
+    "progenitor.final_mass_solar": {"distribution": "uniform", "min": 70.0, "max": 110.0},
+    "progenitor.radius_solar": {"distribution": "uniform", "min": 60.0, "max": 240.0},
+    "progenitor.mass_loss_rate_solar_per_year": {"distribution": "lognormal", "log_mean": -7.07, "log_sigma": 0.45, "min": 0.0002, "max": 0.003},
+    "model_overrides.energy_foe": {"distribution": "uniform", "min": 0.8, "max": 5.0},
+    "model_overrides.nickel_mass_solar": {"distribution": "uniform", "min": 0.03, "max": 0.30},
+    "model_overrides.csm_efficiency": {"distribution": "uniform", "min": 0.1, "max": 0.6}
+  },
+  "hypothetical_ranges": {"distance_kpc": [2.1, 2.5], "peak_visual_magnitude": [-7.0, -1.0]},
+  "variants": {
+    "pessimistic": {"energy_foe": 0.8, "csm_efficiency": 0.1},
+    "nominal": {"energy_foe": 2.0, "csm_efficiency": 0.3},
+    "optimistic": {"energy_foe": 5.0, "csm_efficiency": 0.6}
+  },
+  "source_notes": [
+    "Eta Carinae A parameters are strongly model- and geometry-dependent; the adopted 2.3 kpc distance and broad mass/radius ranges are scenario inputs, not predictions.",
+    "Hamaguchi et al. 2016 find a preferred primary mass-loss rate near 8.5e-4 M_sun/yr for their X-ray interaction model."
+  ]
+}

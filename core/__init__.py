@@ -1,0 +1,1 @@
+"""Shared AURORA rendering engine."""

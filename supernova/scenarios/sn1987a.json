@@ -1,0 +1,56 @@
+{
+  "key": "sn1987a",
+  "description": "Reconstruction-oriented calibration of the peculiar Type II event SN 1987A.",
+  "status": "historical_observation",
+  "category": "historical",
+  "disclaimer": "This is a semi-analytic reconstruction constrained by published parameters, not a radiation-hydrodynamic fit.",
+  "progenitor": {
+    "name": "Sanduleak -69 202 / SN 1987A",
+    "initial_mass_solar": 20.0,
+    "final_mass_solar": 18.0,
+    "metallicity": 0.007,
+    "radius_solar": 35.0,
+    "star_type": "blue supergiant B3 I",
+    "age_years": 10000000.0,
+    "composition": {"H": 0.55, "He": 0.43, "metals": 0.02},
+    "total_mass_lost_solar": 2.0,
+    "mass_loss_rate_solar_per_year": 0.00001,
+    "distance": {"value": 51.4, "unit": "kpc"},
+    "supernova_type": "II-P",
+    "extinction_av_mag": 0.6,
+    "galactic_longitude_deg": 279.70,
+    "galactic_latitude_deg": -31.94
+  },
+  "model_overrides": {
+    "energy_foe": 1.5,
+    "nickel_mass_solar": 0.075,
+    "remnant_mass_solar": 1.5,
+    "diffusion_time_days": 70.0,
+    "plateau_scale": 0.12,
+    "temperature_floor_k": 4800.0,
+    "luminosity_scale": 3.6,
+    "shock_breakout_duration_hours": 0.8,
+    "shock_breakout_temperature_k": 450000.0,
+    "light_echo_delay_days": 240.0,
+    "light_echo_width_days": 45.0,
+    "light_echo_reflection_fraction": 0.002
+  },
+  "uncertainty": {},
+  "historical_metadata": {
+    "name": "SN 1987A",
+    "observation_year": 1987,
+    "approximate_location": "Large Magellanic Cloud",
+    "observed_peak_visual_magnitude": 2.9,
+    "observed_peak_visual_magnitude_range": [2.7, 3.2],
+    "distance_range_kpc": [50.2, 52.6],
+    "historical_source_or_remnant": "Sanduleak -69 202; resolved remnant and equatorial ring",
+    "uncertainty_level": "low for distance and peak V; model-dependent for progenitor/explosion",
+    "observers_and_civilizations": "modern global astronomical observations"
+  },
+  "source_notes": [
+    "Utrobin 2005: R=35±5 R_sun, ejecta=18±1.5 M_sun, E=1.5±0.12 foe, Ni-56=0.0765 M_sun.",
+    "Menon et al. 2019: merger models near R=37 R_sun, E=1.7 foe and Ni-56=0.073 M_sun reproduce key observables.",
+    "AAVSO visual light curve: V maximum about 2.9 near day 80.",
+    "Panagia et al. geometric ring distance: 51.4±1.2 kpc."
+  ]
+}

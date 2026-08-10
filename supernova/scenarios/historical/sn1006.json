@@ -1,0 +1,7 @@
+{
+  "key":"sn1006","description":"Educational Type Ia reconstruction of the exceptionally bright guest star of 1006.","status":"historical_observation","category":"historical","disclaimer":"Peak brightness and extinction are reconstructed from heterogeneous historical descriptions.",
+  "progenitor":{"name":"SN 1006 progenitor","initial_mass_solar":5.0,"final_mass_solar":1.38,"metallicity":0.014,"radius_solar":0.008,"star_type":"carbon-oxygen white dwarf approximation","age_years":1000000000.0,"composition":{"C":0.49,"O":0.49,"metals":0.02},"total_mass_lost_solar":3.62,"mass_loss_rate_solar_per_year":0.0,"distance":{"value":2.2,"unit":"kpc"},"supernova_type":"Ia","extinction_av_mag":0.3,"galactic_longitude_deg":327.60,"galactic_latitude_deg":14.60},
+  "model_overrides":{"energy_foe":1.3,"nickel_mass_solar":0.65,"diffusion_time_days":14.0},"uncertainty":{},
+  "historical_metadata":{"name":"SN 1006","observation_year":1006,"approximate_location":"Lupus, Milky Way","observed_peak_visual_magnitude_range":[-8.0,-7.0],"distance_range_kpc":[1.8,2.4],"historical_source_or_remnant":"SN 1006 remnant","uncertainty_level":"moderate","observers_and_civilizations":"recorded in China, Japan, the Islamic world and Europe"},
+  "source_notes":["Green & Stephenson 2003 review the records; modern remnant studies support a Type Ia event."]
+}

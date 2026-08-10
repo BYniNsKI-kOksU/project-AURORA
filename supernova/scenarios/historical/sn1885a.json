@@ -1,0 +1,7 @@
+{
+  "key":"sn1885a","description":"Educational reconstruction of S Andromedae in M31.","status":"historical_observation","category":"historical","disclaimer":"SN 1885A was peculiar and fast; the supported Ia family is only a reference approximation.",
+  "progenitor":{"name":"S Andromedae / SN 1885A","initial_mass_solar":5.0,"final_mass_solar":1.2,"metallicity":0.02,"radius_solar":0.008,"star_type":"peculiar thermonuclear progenitor approximation","age_years":1000000000.0,"composition":{"C":0.49,"O":0.49,"metals":0.02},"total_mass_lost_solar":3.8,"mass_loss_rate_solar_per_year":0.0,"distance":{"value":785.0,"unit":"kpc"},"supernova_type":"Ia","extinction_av_mag":0.5,"galactic_longitude_deg":121.17,"galactic_latitude_deg":-21.57},
+  "model_overrides":{"energy_foe":0.7,"nickel_mass_solar":0.25,"diffusion_time_days":9.0},"uncertainty":{},
+  "historical_metadata":{"name":"SN 1885A (S Andromedae)","observation_year":1885,"approximate_location":"central bulge of M31","observed_peak_visual_magnitude_range":[5.7,6.0],"distance_range_kpc":[760.0,810.0],"historical_source_or_remnant":"absorption remnant in the M31 bulge","uncertainty_level":"moderate for historical peak; high for subtype/explosion","observers_and_civilizations":"Ernst Hartwig and other nineteenth-century telescopic observers"},
+  "source_notes":["Historical reconstructions give a peak near V=5.85 and an unusually fast decline."]
+}

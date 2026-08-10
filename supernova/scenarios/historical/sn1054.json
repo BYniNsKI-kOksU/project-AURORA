@@ -1,0 +1,7 @@
+{
+  "key":"sn1054","description":"Educational reconstruction of the supernova associated with the Crab Nebula.","status":"historical_observation","category":"historical","disclaimer":"Historical brightness, extinction, progenitor and subtype are uncertain; ranges must not be read as modern precision photometry.",
+  "progenitor":{"name":"SN 1054 progenitor","initial_mass_solar":10.0,"final_mass_solar":8.5,"metallicity":0.014,"radius_solar":500.0,"star_type":"probable core-collapse progenitor","age_years":25000000.0,"composition":{"H":0.60,"He":0.38,"metals":0.02},"total_mass_lost_solar":1.5,"mass_loss_rate_solar_per_year":0.00001,"distance":{"value":2.0,"unit":"kpc"},"supernova_type":"II-P","extinction_av_mag":1.6,"galactic_longitude_deg":184.56,"galactic_latitude_deg":-5.78},
+  "model_overrides":{"energy_foe":0.8,"nickel_mass_solar":0.04},"uncertainty":{},
+  "historical_metadata":{"name":"SN 1054","observation_year":1054,"approximate_location":"Taurus, Milky Way","observed_peak_visual_magnitude_range":[-6.0,-3.5],"distance_range_kpc":[1.8,2.2],"historical_source_or_remnant":"Crab Nebula (M1)","uncertainty_level":"high for peak magnitude and explosion subtype","observers_and_civilizations":"Chinese court astronomers; records also discussed from Japan and the Middle East"},
+  "source_notes":["Green & Stephenson 2003 review the East Asian records and Crab association."]
+}

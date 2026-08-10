@@ -1,0 +1,9 @@
+{
+  "key":"r136a1","description":"Hypothetical interaction-rich endpoint range for the very massive star R136a1.","status":"hypothetical","category":"hypothetical","disclaimer":"This scenario does not predict an explosion date or even a unique supernova class. The final mass, pair-instability relevance, winds and binary evolution are highly uncertain.",
+  "progenitor":{"name":"R136a1","initial_mass_solar":220.0,"final_mass_solar":90.0,"metallicity":0.007,"radius_solar":35.0,"star_type":"very massive WNh star","age_years":1500000.0,"composition":{"H":0.35,"He":0.63,"metals":0.02},"total_mass_lost_solar":130.0,"mass_loss_rate_solar_per_year":0.00005,"distance":{"value":49.97,"unit":"kpc"},"supernova_type":"IIn","extinction_av_mag":1.8,"galactic_longitude_deg":279.47,"galactic_latitude_deg":-31.67},
+  "model_overrides":{"energy_foe":3.0,"nickel_mass_solar":0.2,"csm_efficiency":0.25},
+  "uncertainty":{"progenitor.initial_mass_solar":{"distribution":"uniform","min":170.0,"max":260.0},"progenitor.final_mass_solar":{"distribution":"uniform","min":50.0,"max":130.0},"progenitor.distance.value":{"distribution":"normal","mean":49.97,"sigma":1.0,"min":47.0,"max":53.0},"model_overrides.energy_foe":{"distribution":"uniform","min":1.0,"max":8.0},"model_overrides.nickel_mass_solar":{"distribution":"uniform","min":0.03,"max":1.0},"model_overrides.csm_efficiency":{"distribution":"uniform","min":0.05,"max":0.6}},
+  "hypothetical_ranges":{"distance_kpc":[47,53],"peak_visual_magnitude":[-1.0,5.0]},
+  "variants":{"pessimistic":{"energy_foe":1.0,"csm_efficiency":0.05},"nominal":{"energy_foe":3.0,"csm_efficiency":0.25},"optimistic":{"energy_foe":8.0,"csm_efficiency":0.6}},
+  "source_notes":["Endpoint and subtype are deliberately left broad; this is not a prediction."]
+}

@@ -1,0 +1,7 @@
+{
+  "key":"sn1181","description":"Educational approximation of the 1181 guest star, probably associated with Pa 30.","status":"historical_observation","category":"historical","disclaimer":"The likely Type Iax interpretation is represented by the nearest supported Ia family; this is a major model limitation.",
+  "progenitor":{"name":"SN 1181 / Pa 30 progenitor approximation","initial_mass_solar":5.0,"final_mass_solar":1.2,"metallicity":0.014,"radius_solar":0.01,"star_type":"probable thermonuclear Iax-like progenitor","age_years":1000000000.0,"composition":{"C":0.49,"O":0.49,"metals":0.02},"total_mass_lost_solar":3.8,"mass_loss_rate_solar_per_year":0.0,"distance":{"value":2.3,"unit":"kpc"},"supernova_type":"Ia","extinction_av_mag":2.4,"galactic_longitude_deg":130.72,"galactic_latitude_deg":3.08},
+  "model_overrides":{"energy_foe":0.35,"nickel_mass_solar":0.12,"diffusion_time_days":11.0},"uncertainty":{},
+  "historical_metadata":{"name":"SN 1181","observation_year":1181,"approximate_location":"Cassiopeia, Milky Way","observed_peak_visual_magnitude_range":[-1.0,1.0],"distance_range_kpc":[1.9,2.8],"historical_source_or_remnant":"Pa 30 candidate remnant","uncertainty_level":"high; identification and subtype remain model-dependent","observers_and_civilizations":"Chinese and Japanese astronomers; possible Arabic record"},
+  "source_notes":["Green & Stephenson 2003 review the records; later Pa 30 work motivates an Iax-like interpretation."]
+}
