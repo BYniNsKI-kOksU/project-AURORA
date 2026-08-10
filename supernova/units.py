@@ -131,4 +131,5 @@ def flux_from_luminosity(luminosity_w: np.ndarray | float, distance: Distance):
     if np.any(~np.isfinite(luminosity)) or np.any(luminosity < 0.0):
         raise ValueError("luminosity must be finite and non-negative")
     return luminosity / (4.0 * math.pi * distance.meters**2)
+    
 
